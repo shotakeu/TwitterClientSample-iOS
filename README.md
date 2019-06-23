@@ -1,14 +1,26 @@
 # TwitterClientSample-iOS
 Base of Twitter client withTwitterKit, swift language.
 
+とりあえず動作するところまで。
+
+## Swift
+version 4.2
+
+## frameworks
+
+- TwitterKit
+  - [https://github.com/twitter-archive/twitter-kit-ios](https://github.com/twitter-archive/twitter-kit-ios)
+
 ## Set up
 
-```AppDelegate.swift
+AppDelegate.swift
+```
 TWTRTwitter.sharedInstance().start(withConsumerKey: "{YOUR CONSUMER KEY}",
                                    consumerSecret: "{YOUR CONSUMER KEY SECRET}")
 ```
 
-```Info.plist
+Info.plist
+```
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
