@@ -18,8 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         // 1. TwitterAPIのAPI keyとAPI secret keyを設定
-        TWTRTwitter.sharedInstance().start(withConsumerKey: "rgKub29Db2Wnb1ehdxZEf0IIo",
-                                           consumerSecret: "l1QQOFch6F4Jc1ntfZTuyYKO17AiUqvE4dH7DWQsZuxJBAuFGh")
+        TWTRTwitter.sharedInstance().start(withConsumerKey: "{YOUR CONSUMER KEY}",
+                                           consumerSecret: "{YOUR CONSUMER KEY SECRET}")
         Fabric.with([Crashlytics.self])
         return true
     }

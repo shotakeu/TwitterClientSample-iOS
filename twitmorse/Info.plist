@@ -25,7 +25,7 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-                <string>twitterkit-rgKub29Db2Wnb1ehdxZEf0IIo</string>
+                <string>twitterkit-{YOURCONSUMERKEY}</string>
 			</array>
 		</dict>
 	</array>
