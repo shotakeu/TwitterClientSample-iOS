@@ -1,0 +1,6 @@
+framework module Pods_twitmorse {
+  umbrella header "Pods-twitmorse-umbrella.h"
+
+  export *
+  module * { export * }
+}
